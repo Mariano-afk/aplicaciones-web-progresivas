@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mariano Blanco / DWN3A - Aplicaciones Web Progresivas</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="icons/favicon.png" />
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/logica.css">
+    </head>
+    <body>
+        <section class="contact-form">
+            <div class="logo">
+            <img class="img-fluid mb-0 mt-auto" src="icons/favicon.png">
+            </div>
+            <h1 class="text-center mx-0 mb-0 mt-auto">Clima mundial</h1>
+            <form id="contact-form" class="text-center mx-0 mb-0 mt-5">
+                <h2 for="search" class="mb-5">Ingrese ciudad</h2>
+                <input title="Search" id="search" value="" type="text" required/>
+
+                <button id="sendButton" type="button">Enviar</button>
+            </form>
+        </section>
+        <section>
+        <div class="tarjeta">
+            <div class="contenido text-center mx-0 mb-0 mt-auto">
+              <h3 class="Nombre card-title" id="Nombre"></h3>
+                <p class="TempMax"></p>
+                <p class="TempMin"></p>
+                <p class="Humedad"></p>
+                <p class="SenTerm"></p>
+                <p class="PresAtmos"></p>
+                <p class="VelViento"></p>
+                <p class="Clima"></p>
+              <img class="Icono img-fluid">
+            </div>
+        </div>
+        </section>
+        <div id="logica"></div>
+        <script src="js/logica.js"></script>  
+    </body>
+</html>

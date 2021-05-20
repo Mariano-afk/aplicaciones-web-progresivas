@@ -1,0 +1,21 @@
+.tarjeta{
+    min-width: 300px;
+    width: 30%;
+    height: 50vh;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+
+.contenido{
+    margin-left: 2em;
+    padding-top: 1em;
+}
+
+.logo{
+    max-width: 200px;
+    height: 20vh;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: transparent;
+}
